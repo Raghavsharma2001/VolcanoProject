@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.suggestions {
+  cursor: pointer;
+  border-right: 1px solid;
+  border-left: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
+  height: 30px;
+}
+
+.suggestions:hover {
+  background-color: grey;
+}
+
+.SearchBox {
+  margin: 10;
+  padding: 10;
+  width: 15rem;
+}
+
+.suggestions {
+  width: 100%;
+  align-items: center;
+}
+
+.suggestion-box {
+  height: 5rem;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container {
+  display: flex;
+}
+.main-container {
+  margin: 1rem;
+  /* column-count:2; */
+}
+
+.dropdown {
+  border: "1px solid #000";
+  height: 100px;
+  overflow: "hidden";
+  padding: "8px";
+  width: 300;
+}
+
+.distance-box {
+  padding: 1rem;
+  padding-left: 0.5rem;
+  text-align: center;
+}
+.distance-box input {
+  display: inline;
+  margin-left: 10px;
+}
+.distance-box label {
+  padding-right: 1rem;
+}
