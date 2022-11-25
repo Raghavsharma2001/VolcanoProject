@@ -1,6 +1,6 @@
 # Volcano APP
 
-This is client-side React application made to interact with API hosted on QUT network. API provides Data about the volcanoes around the world. This application allows the user to select a country and distance as a search parameter and volcano list is displayed using AG-grid. User can see a list of details about the volcano and along with location on the map. Login functionality is implemented for users to access more details about the population in a Bar Chart.
+This is a client-side React application made to interact with API hosted on the QUT network. API provides Data about volcanoes around the world. This application allows the user to select a country and distance as a search parameter and the volcano list is displayed using AG-grid. Users can see a list of details about the volcano along with its location on the map. Login functionality is implemented for users to access more details about the population in a Bar Chart.
 
 ## Technologies
 
